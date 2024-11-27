@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("./images/bg-login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* بداية صفحة تسجيل الدخول */
+.login-page {
+    /* background-image: url("./images/bg-login.png"); */
+    width: 100%;
+    height: auto;
+}
+
+.login-box {
+    max-width: 679px;
+    height: 773px;
+    padding: 80px 40px;
+    background-color: #3a2d0f85;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all .5s;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-input {
+    width: 100%;
+}
+
+.login-page .registration {
+    display: none;
+}
+
+#check:checked~.registration {
+    display: block;
+}
+
+#check:checked~.login {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/* نهاية صفحة تسجيل الدخول */
+
+
+
+/* بداية صفحة انشاء حساب */
+
+.sigup-page {
+    width: 100%;
+    height: auto;
+}
+
+
+.signup-box {
+    max-width: 679px;
+    height: 773px;
+    padding: 20px 40px;
+    background-color: #3a2d0f85;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all .5s;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.signup-button {
+    text-align: center;
+    padding: 20px 0;
+    color: #ffff;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #4f5847;
+    transition: all .5s;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+.btn-main {
+    color: #fff;
+    background: #4f5847;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 2.5rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+button {
+    color: #fff;
+    background: #4f5847;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 2.5rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.btn-main:hover {
+    text-decoration: underline;
+}
+
+
+
+.or-style {
+    position: relative;
+    color: #fcfcfc;
+    padding-top: 20px;
+}
+
+.or-style::before {
+    content: "";
+    width: 205px;
+    height: 3px;
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    background-color: #fcfcfc;
+}
+
+
+.or-style::after {
+    content: "";
+    width: 205px;
+    height: 3px;
+    position: absolute;
+    right: 75px;
+    bottom: 11px;
+    background-color: #fcfcfc;
+}
+
+/* نهاية صفحة انشاء حساب */
